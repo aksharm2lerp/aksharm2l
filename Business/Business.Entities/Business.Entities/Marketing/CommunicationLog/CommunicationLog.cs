@@ -15,11 +15,7 @@ namespace Business.Entities.Marketing.CommunicationLog
         public string VanueTypeText { get; set; }
         public int PartyTypeID { get; set; }
         public string PartyTypeText { get; set; }
-<<<<<<< Updated upstream
-        public DateTime CommunicationLogDate { get; set; }
-=======
         public DateTime CommunicationLogDate { get; set; } = DateTime.Now.Date;
->>>>>>> Stashed changes
         public string PlaceOfMeeting { get; set; }
         public bool IsSentDocument { get; set; }
         public bool IsSentMarketingDocument { get; set; }
